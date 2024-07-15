@@ -1,0 +1,89 @@
+/* Navbar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+/* Button container */
+.button {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.button button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #3e8e41;
+}
+
+/* Signup container */
+.signup {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Form elements */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Card animation */
+.signup {
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
+}
+
+.signup.ng-enter {
+  transform: scale(0.9);
+}
+
+.signup.ng-enter.ng-enter-active {
+  transform: scale(1);
+}
+
+.signup.ng-leave {
+  transform: scale(1);
+}
+
+.signup.ng-leave.ng-leave-active {
+  transform: scale(0.9);
+}

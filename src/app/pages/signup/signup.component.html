@@ -1,0 +1,38 @@
+
+
+<div class="signup" *ngIf="activeForm === 'signup'">
+  <!-- register -->
+  <form [formGroup]="signupForm" (ngSubmit)="onsignupSubmit()">
+    <label> UserName</label>
+    <input
+      type="text"
+      name="username"
+      placeholder="UserName"
+      formControlName="username"
+    /><br /><br />
+    <label> Email</label>
+    <input
+      type="email"
+      name="email"
+      placeholder="Email"
+      formControlName="email"
+    /><br /><br />
+    <label> Password</label>
+    <input
+      type="password"
+      name="password"
+      id="password"
+      placeholder="Password"
+      formControlName="password"
+    />
+    <label> Confirm Password</label>
+    <input
+      type="password"
+      name="confirmPassword"
+      id="confirmPassword"
+      placeholder="Confirm Password"
+    />
+    <br /><br />
+    <button type="submit">signup</button>
+  </form>
+</div>

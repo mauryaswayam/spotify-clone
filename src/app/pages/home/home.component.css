@@ -1,0 +1,190 @@
+/* Container*/
+.container{
+  width: 1507px;
+  height: 689px;
+  background-color:#191919
+}
+
+
+
+.sidebar{
+  background-color:rgb(0, 0, 0) ;
+  height: 690px;
+  width: 218px;
+
+}
+
+img{
+  width: 246px;
+  height: 171px;
+  margin: -11px;
+}
+/*item*/
+.sidebaritems{
+  padding: 14px;
+  margin: 21px;
+  display: grid;
+  margin-top: 646px;
+}
+p{
+color: antiquewhite;
+font-size: 19px;
+margin-left: 34px;
+font-weight: 900;
+margin-top: 15px;
+}
+p:hover{
+cursor: pointer;
+color: lightgreen;
+}
+
+.icon{
+  margin: -9px;
+  display: inline-grid;
+  margin-top: -608px;
+}
+.icontext{
+  margin: -28px;
+  margin-top: -626px;
+  margin-left: 22px;
+  display: flow;
+}
+/*Home Icon*/
+.home{
+width: 26px;
+height: 27px;
+margin-left: 6px;
+}
+/*Search Icon*/
+.search{
+  width: 45px;
+  height: 32px;
+  margin-left: -3px;
+  margin-top: -272px;
+}
+
+/*playlist-container*/
+.playlistcontainer{
+  background-color: #1e1e1e;
+  width: 202px;
+  margin-left: -20px;
+  height: 157px;
+  border-radius: 16px;
+  margin-top: -496px;
+}
+/*Library Icon*/
+.library{
+width: 33px;
+height: 31px;
+margin-left: 16px;
+}
+h4{
+  font-size: 21px;
+  color: aliceblue;
+  margin-left: 71px;
+  margin-top: -13px;
+}
+h3{
+font-size: 15px;
+color: #9d9d9d;
+margin-left: 22px;
+margin-top: -4px;
+font-style: normal;
+font-weight: 100;
+}
+h2{
+font-size: 10px;
+color: #9d9d9d;
+margin-left: 22px;
+margin-top: -4px;
+font-style: normal;
+font-weight: 100;
+}
+
+.section-title p {
+  font-size: 25px;
+  font-weight: 900;
+  color: #2dff2d;
+  margin-left: 207px;
+  margin-top: -643px;
+  width: 15px;
+}
+.playlist-card-container{
+  background-color: #272525;
+  margin-left: 321px;
+  width: 202px;
+  height: 229px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: -580px;
+  
+}
+.playlist-card-container:hover {
+  background: linear-gradient(145deg, #272525, #272525);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.57);
+
+}
+
+/*img-artist*/
+.img-artist{
+  width: 182px;
+  height: 171px;
+  margin: 10px;
+  border-radius: 10px;
+
+}
+h5{
+  font-size: 15px;
+  margin: 51px;
+  color: white;
+  margin-left: 339px;
+  margin-top: -46px;
+  width: 95px;
+}
+h5:hover{
+  color: lightgreen;
+}
+.play-icon{
+  width: 44px;
+  height: 41px;
+  margin-left: 460px;
+  margin-top: -91px;
+  cursor: pointer;
+  display: flex;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.play-icon:hover{
+  transform: scale(1.1);
+}
+.pritam{
+  height: 245px;
+}
+.arijit{
+  margin-left: 228px;
+  margin-top: -245px;
+  height: 237px;
+}
+.badshah{
+  margin-top: -237px;
+  margin-left: 454px;
+  height: 240px;
+}
+.Ar-rahman{
+  margin-top: -239px;
+  margin-left: 682px;
+height: 250px;
+}
+.vishal-mishra{
+    margin-top: -250px;
+    margin-left: 909px;
+  height: 250px;
+  }
+  .Sachin-jigar{
+    margin-top: -250px;
+    margin-left: 909px;
+  height: 250px;
+  }
+ 
+
+
+

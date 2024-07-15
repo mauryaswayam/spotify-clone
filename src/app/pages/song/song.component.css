@@ -1,0 +1,54 @@
+/* container.css */
+.container {
+    max-width: 1500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #3f7269;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0eff63;
+  }
+  
+  /* song.css */
+  .song1 {
+    margin-bottom: 6px;
+    padding: 9px;
+    border-bottom: #ccc;
+    width: 387px;
+    margin-left: 1082px
+  }
+  
+  .song1 audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  /* song-info.css */
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -41px;
+    color: #c0b0b0;
+    margin-left: -1091px;
+  }
+  
+  .playlist {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .playlist:hover {
+    background-color: #444;
+  }
+  
+  .playlist:focus {
+    box-shadow: 0 0 5px #666;
+  }

@@ -1,0 +1,241 @@
+.container {
+    margin: 40px auto;
+    padding: 32px;
+    background-color: #110e0e;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 930px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f7ecec;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  h1::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2115/2115431.png"); /* replace with your own icon */
+    background-size: 40px 40px;
+    margin: 0 auto 10px;
+  }
+  
+
+  /*img-artist*/
+.img-artist{
+    width: 182px;
+    height: 171px;
+    margin: 10px;
+    border-radius: 10px;
+  
+  }
+  h5{
+    font-size: 17px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h5:hover{
+    color: lightgreen;
+  }
+  .play-icon{
+    width: 44px;
+    height: 45px;
+    margin-left: 127px;
+    margin-top: -80px;
+    cursor: pointer;
+    display: flex;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .play-icon:hover{
+    transform: scale(1.1);
+  }
+  .Animal{
+    height: 245px;
+    margin-top: -896px;
+    margin-left: 9px;
+  }
+  .Aavesham{
+    height: 245px;
+    margin-top: -237px;
+    margin-left: 248px;
+  }
+  h6{
+    font-size: 13px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h6:hover{
+    color: lightgreen;
+  }
+  .love-hotel{
+    height: 245px;
+    margin-top: -243px;
+    margin-left: 718px;
+  }
+  h3{
+    font-size: 13px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h3:hover{
+    color: lightgreen;
+  }
+  .montesa{
+    height: 245px;
+    margin-top: -251px;
+    margin-left: 716px;
+  }
+  h3{
+    font-size: 13px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h3:hover{
+    color: lightgreen;
+  }
+  .EK-the-tiger{
+    height: 245px;
+    margin-top: -249px;
+    margin-left: 975px;
+  }
+  h3{
+    font-size: 13px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h3:hover{
+    color: lightgreen;
+  }
+  .Aashiqi{
+    height: 245px;
+    margin-top: -249px;
+    margin-left: 1211px;
+  }
+  h3{
+    font-size: 13px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h3:hover{
+    color: lightgreen;
+  }
+  .kk{
+    height: 245px;
+    margin-top: 73px;
+    margin-left: 9px;
+  }
+  h3{
+    font-size: 13px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h3:hover{
+    color: lightgreen;
+  }
+  .Ms-Dhoni{
+    height: 245px;
+    margin-top: -247px;
+    margin-left: 244px;
+  }
+  h3{
+    font-size: 13px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h3:hover{
+    color: lightgreen;
+  }
+  .lofi{
+    height: 245px;
+    margin-top: -247px;
+    margin-left: 485px;
+  }
+  h3{
+    font-size: 13px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h3:hover{
+    color: lightgreen;
+  }
+  .shershah{
+    height: 245px;
+    margin-top: -247px;
+    margin-left: 734px;
+  }
+  h3{
+    font-size: 13px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h3:hover{
+    color: lightgreen;
+  }
+  .local-train{
+    height: 245px;
+    margin-top: -247px;
+    margin-left: 997px;
+  }
+  h3{
+    font-size: 13px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h3:hover{
+    color: lightgreen;
+  }
+  .emran{
+    height: 245px;
+    margin-top: -247px;
+    margin-left: 1220px;
+  }
+  h3{
+    font-size: 13px;
+    margin: 51px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 17px;
+    width: 95px;
+  }
+  h3:hover{
+    color: lightgreen;
+  }
